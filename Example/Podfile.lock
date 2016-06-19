@@ -1,0 +1,16 @@
+PODS:
+  - JKit (0.1.0)
+
+DEPENDENCIES:
+  - JKit (from `../`)
+
+EXTERNAL SOURCES:
+  JKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JKit: 36e7aefef36c1824e06ec9f3eada8c63a724021d
+
+PODFILE CHECKSUM: f03b3cb93812b195ad40562905a8c959eb8df28d
+
+COCOAPODS: 1.0.1

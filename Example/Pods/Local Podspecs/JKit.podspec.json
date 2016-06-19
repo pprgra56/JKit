@@ -1,0 +1,22 @@
+{
+  "name": "JKit",
+  "version": "0.1.0",
+  "summary": "i want say nothing more",
+  "description": "To make your life better!",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/JKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ChangQiong": "pprgra56@126.com"
+  },
+  "source": {
+    "git": "https://github.com/pprgra56/JKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JKit/Classes/**/*"
+}

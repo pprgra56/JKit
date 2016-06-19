@@ -17,13 +17,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    JKStringKit *jk = [[JKStringKit alloc] init];
+    [jk one];
+    [jk two:@"cahngqjon"];
+    [jk three:23];
+
+
+    JKView *jv = [[JKView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:jv];
+
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

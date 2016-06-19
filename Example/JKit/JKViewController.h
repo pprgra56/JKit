@@ -7,7 +7,10 @@
 //
 
 @import UIKit;
+@import JKit;
+
 
 @interface JKViewController : UIViewController
+
 
 @end

@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0F2578D2AB22E1B2AB6D2A6508947F /* Pods-JKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2C66670D9CA3D48B5B531A46E3A032 /* Pods-JKit_Tests-dummy.m */; };
+		217A4EAFE761459EB94EF06BEAEC9205 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6033BC2B5CA8A20F120C75B4663800 /* ReplaceMe.m */; };
+		2668B35516F4102702E993DF890FE8B1 /* JKStringKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0163DC825C979B0E951F8058FAE07040 /* JKStringKit.m */; };
+		32085F9549171F6BADD7FD4817C812FC /* JKStringKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D4B8017BF18DA083699EEA1B7C648F /* JKStringKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BC3A7C6F51CA7A1152B713430C788FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6BE1F3F8AA75699DE4FCD5C67CC511DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7013D436388419517DD8723DD6B0D576 /* JKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 395D41CAD1149F6FD56C9AB07B786660 /* JKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80ED99578193DA46044F6635730669BF /* JKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD3448B0B729DAD64F68A9B8D4653E /* JKit-dummy.m */; };
+		81247D51C74DD0A7C5EFFFE1F8D66254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		84203992A6BFBC9F2132FEF07A4B2E3F /* Pods-JKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD3B5F2935CB452D8AC765D22809DAA /* Pods-JKit_Example-dummy.m */; };
+		A522D1231A7955F847937E01701BC395 /* JKView.m in Sources */ = {isa = PBXBuildFile; fileRef = A02242BCC42511B78436AFAB1558ACC9 /* JKView.m */; };
+		CF91ECC20BB4CFDD221F47FCE6B89221 /* JKView.h in Headers */ = {isa = PBXBuildFile; fileRef = BAAF5E83DBB3D36AD83FA90178471632 /* JKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D08823847C709F04DE261F3F383589A6 /* Pods-JKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A90C985E7EC6FFF004030809782A6F5 /* Pods-JKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7F3386407D6EDD345DA72876EBB680C /* Pods-JKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDE71611ADD4D30284E0577748DB69E3 /* Pods-JKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37F14F422550B425EDBD226A018E819B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDE7D1B255184052296DF5685ED9BD54;
+			remoteInfo = JKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0163DC825C979B0E951F8058FAE07040 /* JKStringKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JKStringKit.m; sourceTree = "<group>"; };
+		13268EFF368FE36A61A60918D4C37020 /* Pods-JKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		19DE072C3D4D3486B77DD46E15B171D7 /* Pods-JKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JKit_Tests.modulemap"; sourceTree = "<group>"; };
+		1A90C985E7EC6FFF004030809782A6F5 /* Pods-JKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2C61720277897C114773ECCE51395DDA /* Pods-JKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2E2C66670D9CA3D48B5B531A46E3A032 /* Pods-JKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		3210F2FE7B991F2D230DA6976CB53153 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D4B8017BF18DA083699EEA1B7C648F /* JKStringKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JKStringKit.h; sourceTree = "<group>"; };
+		395D41CAD1149F6FD56C9AB07B786660 /* JKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKit-umbrella.h"; sourceTree = "<group>"; };
+		54C3E532265D4E49D9C0C703B9D46C2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6033BC2B5CA8A20F120C75B4663800 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		83A59EF43B9849B0B1E1713AD7BBD660 /* Pods-JKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A545F99D416BD3B9B5EA7C36EBE711D /* Pods-JKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B44DCE61C59271F3EE61A7893E654CD /* Pods-JKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		963DA6C2CB682A1527435EACA6C8D8F6 /* JKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKit.xcconfig; sourceTree = "<group>"; };
+		9ADF0A1277C0D5A8D563FE909DB60E96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02242BCC42511B78436AFAB1558ACC9 /* JKView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JKView.m; sourceTree = "<group>"; };
+		A5068126BB636B13C0EDC7C2C71D92B1 /* Pods_JKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B649C7833C56EE4151F6DD1818FBA010 /* JKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKit-prefix.pch"; sourceTree = "<group>"; };
+		BAAF5E83DBB3D36AD83FA90178471632 /* JKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JKView.h; sourceTree = "<group>"; };
+		BBF4057CFCE867CB79C593C1CE1A3B6D /* Pods-JKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKit_Example-resources.sh"; sourceTree = "<group>"; };
+		BE1ED813AABDB2895E61E76E4743BBE8 /* Pods-JKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CDE71611ADD4D30284E0577748DB69E3 /* Pods-JKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF98B77C4885B02ECDD3941F06FAE967 /* Pods-JKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CFF2D1B22BD19D16DAAF7E22DFC81891 /* JKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BD32F875E3AD95A8C5AC069D435BB3 /* Pods-JKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D58B5D919547DBA458323A97F980533F /* Pods_JKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB73DEF37DC1760D7F5F3ADC10F1EC08 /* Pods-JKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFD3B5F2935CB452D8AC765D22809DAA /* Pods-JKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKit_Example-dummy.m"; sourceTree = "<group>"; };
+		E3FCCC1B25A3FCF65ECC52E15C19D836 /* JKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JKit.modulemap; sourceTree = "<group>"; };
+		F00B465DAE8CA279F310FF0D6D0A01A3 /* Pods-JKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F4AD3448B0B729DAD64F68A9B8D4653E /* JKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKit-dummy.m"; sourceTree = "<group>"; };
+		FA07D53B6A12ED00409AD1FD601C039E /* Pods-JKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JKit_Example.modulemap"; sourceTree = "<group>"; };
+		FECA7DADD0113B16555B2F6C701FB96B /* Pods-JKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094531E3C278A7D984974D439EDC945C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81247D51C74DD0A7C5EFFFE1F8D66254 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0FF551A6756EEB0DE01C0D45352396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC3A7C6F51CA7A1152B713430C788FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5090BD7EF1D53C84BD612EE7987293A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE1F3F8AA75699DE4FCD5C67CC511DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093AA5AE8A5DFAB3A953DD54176CDEBF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74B0851DF218C5E1E59DE05308047A94 /* JKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		24BD0E7378D476E91DE26F0641FF2B84 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				36D4B8017BF18DA083699EEA1B7C648F /* JKStringKit.h */,
+				0163DC825C979B0E951F8058FAE07040 /* JKStringKit.m */,
+				BAAF5E83DBB3D36AD83FA90178471632 /* JKView.h */,
+				A02242BCC42511B78436AFAB1558ACC9 /* JKView.m */,
+				7A6033BC2B5CA8A20F120C75B4663800 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		320723B0C8A6BA492DEC2A5FD15A7FA6 /* Pods-JKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9ADF0A1277C0D5A8D563FE909DB60E96 /* Info.plist */,
+				FA07D53B6A12ED00409AD1FD601C039E /* Pods-JKit_Example.modulemap */,
+				DB73DEF37DC1760D7F5F3ADC10F1EC08 /* Pods-JKit_Example-acknowledgements.markdown */,
+				8B44DCE61C59271F3EE61A7893E654CD /* Pods-JKit_Example-acknowledgements.plist */,
+				DFD3B5F2935CB452D8AC765D22809DAA /* Pods-JKit_Example-dummy.m */,
+				CF98B77C4885B02ECDD3941F06FAE967 /* Pods-JKit_Example-frameworks.sh */,
+				BBF4057CFCE867CB79C593C1CE1A3B6D /* Pods-JKit_Example-resources.sh */,
+				CDE71611ADD4D30284E0577748DB69E3 /* Pods-JKit_Example-umbrella.h */,
+				2C61720277897C114773ECCE51395DDA /* Pods-JKit_Example.debug.xcconfig */,
+				BE1ED813AABDB2895E61E76E4743BBE8 /* Pods-JKit_Example.release.xcconfig */,
+			);
+			name = "Pods-JKit_Example";
+			path = "Target Support Files/Pods-JKit_Example";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		74B0851DF218C5E1E59DE05308047A94 /* JKit */ = {
+			isa = PBXGroup;
+			children = (
+				87B51EED93609D7F2CC6710520F4DDD0 /* JKit */,
+				D71C473C25AFD1151478778FAB035EC1 /* Support Files */,
+			);
+			name = JKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				093AA5AE8A5DFAB3A953DD54176CDEBF /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9FDEBF2D8223595D030DAB77A0214E2B /* Products */,
+				834EBB4170E467CA54205B5E27D7BFAD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		834EBB4170E467CA54205B5E27D7BFAD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				320723B0C8A6BA492DEC2A5FD15A7FA6 /* Pods-JKit_Example */,
+				84CE6495D4FDB1D964E686D09D041AA3 /* Pods-JKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		84CE6495D4FDB1D964E686D09D041AA3 /* Pods-JKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				54C3E532265D4E49D9C0C703B9D46C2B /* Info.plist */,
+				19DE072C3D4D3486B77DD46E15B171D7 /* Pods-JKit_Tests.modulemap */,
+				D3BD32F875E3AD95A8C5AC069D435BB3 /* Pods-JKit_Tests-acknowledgements.markdown */,
+				8A545F99D416BD3B9B5EA7C36EBE711D /* Pods-JKit_Tests-acknowledgements.plist */,
+				2E2C66670D9CA3D48B5B531A46E3A032 /* Pods-JKit_Tests-dummy.m */,
+				FECA7DADD0113B16555B2F6C701FB96B /* Pods-JKit_Tests-frameworks.sh */,
+				13268EFF368FE36A61A60918D4C37020 /* Pods-JKit_Tests-resources.sh */,
+				1A90C985E7EC6FFF004030809782A6F5 /* Pods-JKit_Tests-umbrella.h */,
+				83A59EF43B9849B0B1E1713AD7BBD660 /* Pods-JKit_Tests.debug.xcconfig */,
+				F00B465DAE8CA279F310FF0D6D0A01A3 /* Pods-JKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-JKit_Tests";
+			path = "Target Support Files/Pods-JKit_Tests";
+			sourceTree = "<group>";
+		};
+		87B51EED93609D7F2CC6710520F4DDD0 /* JKit */ = {
+			isa = PBXGroup;
+			children = (
+				24BD0E7378D476E91DE26F0641FF2B84 /* Classes */,
+			);
+			path = JKit;
+			sourceTree = "<group>";
+		};
+		9FDEBF2D8223595D030DAB77A0214E2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF2D1B22BD19D16DAAF7E22DFC81891 /* JKit.framework */,
+				D58B5D919547DBA458323A97F980533F /* Pods_JKit_Example.framework */,
+				A5068126BB636B13C0EDC7C2C71D92B1 /* Pods_JKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D71C473C25AFD1151478778FAB035EC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3210F2FE7B991F2D230DA6976CB53153 /* Info.plist */,
+				E3FCCC1B25A3FCF65ECC52E15C19D836 /* JKit.modulemap */,
+				963DA6C2CB682A1527435EACA6C8D8F6 /* JKit.xcconfig */,
+				F4AD3448B0B729DAD64F68A9B8D4653E /* JKit-dummy.m */,
+				B649C7833C56EE4151F6DD1818FBA010 /* JKit-prefix.pch */,
+				395D41CAD1149F6FD56C9AB07B786660 /* JKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16181E423EB6ADB648067AB711768949 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08823847C709F04DE261F3F383589A6 /* Pods-JKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66678D2B8149DC0030E7BB7F5534BF17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F3386407D6EDD345DA72876EBB680C /* Pods-JKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35FB9CE7ED7649DB33F3E98555106C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7013D436388419517DD8723DD6B0D576 /* JKit-umbrella.h in Headers */,
+				32085F9549171F6BADD7FD4817C812FC /* JKStringKit.h in Headers */,
+				CF91ECC20BB4CFDD221F47FCE6B89221 /* JKView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40CD69A42AE784B2312EF57ED0B51DDB /* Pods-JKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801AFAFE52075C97B6BC1EE856E7D5C5 /* Build configuration list for PBXNativeTarget "Pods-JKit_Tests" */;
+			buildPhases = (
+				28E07C4136813BD89101BD5AACD30653 /* Sources */,
+				5090BD7EF1D53C84BD612EE7987293A1 /* Frameworks */,
+				16181E423EB6ADB648067AB711768949 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JKit_Tests";
+			productName = "Pods-JKit_Tests";
+			productReference = A5068126BB636B13C0EDC7C2C71D92B1 /* Pods_JKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		639376B02507005998E6C7F215EDD625 /* Pods-JKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F79C1267A5D0DA8E931A50E0944EC62 /* Build configuration list for PBXNativeTarget "Pods-JKit_Example" */;
+			buildPhases = (
+				7B9292F437DFE912E76E85A389204CC8 /* Sources */,
+				094531E3C278A7D984974D439EDC945C /* Frameworks */,
+				66678D2B8149DC0030E7BB7F5534BF17 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C5AABEA0237A29531960924C57A0269 /* PBXTargetDependency */,
+			);
+			name = "Pods-JKit_Example";
+			productName = "Pods-JKit_Example";
+			productReference = D58B5D919547DBA458323A97F980533F /* Pods_JKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDE7D1B255184052296DF5685ED9BD54 /* JKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F940ED6386CA6A3A66B9C2844C874029 /* Build configuration list for PBXNativeTarget "JKit" */;
+			buildPhases = (
+				1BE5CBC3EF0348ECF4C651B662DAC268 /* Sources */,
+				4D0FF551A6756EEB0DE01C0D45352396 /* Frameworks */,
+				D35FB9CE7ED7649DB33F3E98555106C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKit;
+			productName = JKit;
+			productReference = CFF2D1B22BD19D16DAAF7E22DFC81891 /* JKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9FDEBF2D8223595D030DAB77A0214E2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDE7D1B255184052296DF5685ED9BD54 /* JKit */,
+				639376B02507005998E6C7F215EDD625 /* Pods-JKit_Example */,
+				40CD69A42AE784B2312EF57ED0B51DDB /* Pods-JKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BE5CBC3EF0348ECF4C651B662DAC268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80ED99578193DA46044F6635730669BF /* JKit-dummy.m in Sources */,
+				2668B35516F4102702E993DF890FE8B1 /* JKStringKit.m in Sources */,
+				A522D1231A7955F847937E01701BC395 /* JKView.m in Sources */,
+				217A4EAFE761459EB94EF06BEAEC9205 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E07C4136813BD89101BD5AACD30653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0F2578D2AB22E1B2AB6D2A6508947F /* Pods-JKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9292F437DFE912E76E85A389204CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84203992A6BFBC9F2132FEF07A4B2E3F /* Pods-JKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C5AABEA0237A29531960924C57A0269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JKit;
+			target = BDE7D1B255184052296DF5685ED9BD54 /* JKit */;
+			targetProxy = 37F14F422550B425EDBD226A018E819B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13BB06AF56706C4B4181AB955574D40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C61720277897C114773ECCE51395DDA /* Pods-JKit_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JKit_Example/Pods-JKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16B72D148941B0F164B6250D52FAF2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A59EF43B9849B0B1E1713AD7BBD660 /* Pods-JKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JKit_Tests/Pods-JKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5094A5FC894255DFD4E0C6D3C394E75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00B465DAE8CA279F310FF0D6D0A01A3 /* Pods-JKit_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JKit_Tests/Pods-JKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F08003F09F2B963A8FE83DAD7E00FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963DA6C2CB682A1527435EACA6C8D8F6 /* JKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JKit/JKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JKit/JKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6AEF9F28348858B2E3093C70F223A648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE1ED813AABDB2895E61E76E4743BBE8 /* Pods-JKit_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JKit_Example/Pods-JKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB24F551715862AC0BEA04F669A03517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963DA6C2CB682A1527435EACA6C8D8F6 /* JKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JKit/JKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JKit/JKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F79C1267A5D0DA8E931A50E0944EC62 /* Build configuration list for PBXNativeTarget "Pods-JKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BB06AF56706C4B4181AB955574D40F /* Debug */,
+				6AEF9F28348858B2E3093C70F223A648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801AFAFE52075C97B6BC1EE856E7D5C5 /* Build configuration list for PBXNativeTarget "Pods-JKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B72D148941B0F164B6250D52FAF2F4 /* Debug */,
+				5094A5FC894255DFD4E0C6D3C394E75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F940ED6386CA6A3A66B9C2844C874029 /* Build configuration list for PBXNativeTarget "JKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB24F551715862AC0BEA04F669A03517 /* Debug */,
+				5F08003F09F2B963A8FE83DAD7E00FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
