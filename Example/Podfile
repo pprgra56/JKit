@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JKit_Example' do
+  pod 'JKit', :path => '../'
+
+  target 'JKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
