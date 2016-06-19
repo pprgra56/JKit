@@ -1,4 +1,5 @@
 # JKit
+<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/ChangQiong/JKit.svg?style=flat)](https://travis-ci.org/ChangQiong/JKit)
 [![Version](https://img.shields.io/cocoapods/v/JKit.svg?style=flat)](http://cocoapods.org/pods/JKit)
@@ -27,3 +28,6 @@ ChangQiong, pprgra56@126.com
 ## License
 
 JKit is available under the MIT license. See the LICENSE file for more info.
+=======
+JKit Better Your Life!
+>>>>>>> e561dcd768e9d5e193c40b7fddf3ffaffefc2fef

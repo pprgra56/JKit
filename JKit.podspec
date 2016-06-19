@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'To make your life better!'
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/JKit'
+  s.homepage         = 'https://github.com/pprgra56/lla/tree/1.1.0'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ChangQiong' => 'pprgra56@126.com' }
@@ -19,11 +19,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'JKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'JKit' => ['JKit/Assets/*.png']
-  # }
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
 end
